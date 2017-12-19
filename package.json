@@ -1,0 +1,26 @@
+{
+  "name": "myTraceRoute",
+  "version": "1.0.0",
+  "description": "implementation of traceroute function",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrajob365/myTraceRoute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandrajob365/myTraceRoute/issues"
+  },
+  "homepage": "https://github.com/chandrajob365/myTraceRoute#readme",
+  "dependencies": {
+    "raw-socket": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
