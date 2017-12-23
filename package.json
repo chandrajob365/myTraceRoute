@@ -1,10 +1,10 @@
 {
-  "name": "myTraceRoute",
+  "name": "sloppytrace",
   "version": "1.0.0",
-  "description": "implementation of traceroute function",
+  "description": "Node CLI utility for traceroute",
   "main": "app.js",
-  "scripts": {
-    "start": "nodemon"
+  "bin": {
+    "sloppytrace": "./bin/sloppytrace"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/chandrajob365/myTraceRoute#readme",
   "dependencies": {
-    "raw-socket": "^1.5.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.13.3"
+    "raw-socket": "^1.5.1",
+    "yargs": "^10.0.3"
   }
 }
